@@ -1,4 +1,4 @@
--- PriceBite database schema (PostgreSQL / Supabase)
+-- PriceLocker database schema (PostgreSQL / Supabase)
 -- Apply in Supabase SQL Editor. Demo frontend is not yet connected to this schema.
 
 create extension if not exists pgcrypto;
