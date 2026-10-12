@@ -1,4 +1,4 @@
-# PriceBite — Next.js starter
+# PriceLocker — Next.js starter
 
 A low-budget starter architecture for a multi-category comparison website:
 - Groceries and household essentials
@@ -31,7 +31,7 @@ A low-budget starter architecture for a multi-category comparison website:
 ## Create from official Next.js scaffold
 This starter is a minimal code deliverable. For a production-grade Next.js app, the recommended path is:
 ```powershell
-npx create-next-app@latest pricebite --yes
+npx create-next-app@latest pricelocker --yes
 ```
 Then copy `app/page.tsx`, `app/globals.css`, `lib/catalog.ts`, and `supabase/schema.sql` into the scaffold (keep the scaffold's generated config files), install dependencies, and run `npm run dev`.
 

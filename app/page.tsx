@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <main className="shell">
       <header className="topbar">
-        <a className="brand" href="#"><span className="brandMark">P</span><span>Price<span className="green">Bite</span><small>Compare before you buy</small></span></a>
+        <a className="brand" href="#"><span className="brandMark">P</span><span>Price<span className="green">Locker</span><small>Compare before you buy</small></span></a>
         <div className="pinBox"><label htmlFor="pin">Deliver to PIN</label><input id="pin" value={pin} maxLength={6} inputMode="numeric" onChange={e => setPin(e.target.value.replace(/\D/g, ''))} /></div>
       </header>
 
@@ -95,7 +95,7 @@ export default function Home() {
         <strong className="basketTotal">{money(basketTotal)}</strong>
       </aside>
 
-      <footer><strong>PriceBite</strong><span>Prices and stock must be verified with each retailer before purchase.</span></footer>
+      <footer><strong>PriceLocker</strong><span>Prices and stock must be verified with each retailer before purchase.</span></footer>
     </main>
   );
 }
